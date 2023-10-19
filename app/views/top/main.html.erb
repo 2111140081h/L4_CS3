@@ -1,0 +1,5 @@
+<h1>ログイン中です!</h1>
+
+<%= form_tag '/top/logout', method: :post, data: { turbo: false } do %>
+    <%= submit_tag 'ログアウト' %>
+<% end %>
